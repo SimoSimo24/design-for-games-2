@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5f58d247abc9a0c4f893dd5a82d6af5a
+guid: 861a55c52efbffb409bd5d2323cd9b5c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3211519955190728082
-    second: Firefly_A_simple_orange_light_bulb_which_can_be_used_for_a_2d_game_66323-removebg-preview_0
+      213: 5699545677510433117
+    second: b85e9b3169dd51a5f4d758b420898aae_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Firefly_A_simple_orange_light_bulb_which_can_be_used_for_a_2d_game_66323-removebg-preview_0
+      name: b85e9b3169dd51a5f4d758b420898aae_0
       rect:
         serializedVersion: 2
-        x: 124
-        y: 49
-        width: 252
-        height: 397
+        x: 0
+        y: 0
+        width: 800
+        height: 640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6a37c9bd936e63d0800000000000000
-      internalID: -3211519955190728082
+      spriteID: d595f11a89ad81f40800000000000000
+      internalID: 5699545677510433117
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Firefly_A_simple_orange_light_bulb_which_can_be_used_for_a_2d_game_66323-removebg-preview_0: -3211519955190728082
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
