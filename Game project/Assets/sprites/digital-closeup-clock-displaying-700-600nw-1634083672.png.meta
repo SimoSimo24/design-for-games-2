@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      digital-closeup-clock-displaying-700-600nw-1634083672_0: -166525287291654675
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

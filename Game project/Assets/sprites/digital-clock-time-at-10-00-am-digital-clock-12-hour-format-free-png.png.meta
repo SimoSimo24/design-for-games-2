@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      digital-clock-time-at-10-00-am-digital-clock-12-hour-format-free-png_0: 973387311159926007
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

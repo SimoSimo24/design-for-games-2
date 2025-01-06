@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bed-blanket-pillows-png-12_0: 242933026323417646
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
