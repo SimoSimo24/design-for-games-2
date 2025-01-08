@@ -1,10 +1,11 @@
 fileFormatVersion: 2
-guid: e06c4d1c16746c34b9586311b54b3ce2
+guid: 96089fd0aa66a6e47a6354faf6a3f2a0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 726170470924532744
-    second: WhatsApp Image 2025-01-06 at 12.21.37_0
+      213: -3243729509832614031
+    second: Firefly A wooden workbench background with tools hanging on the wall
+      and papers with technical drawi_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +97,18 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WhatsApp Image 2025-01-06 at 12.21.37_0
+      name: Firefly A wooden workbench background with tools hanging on the wall
+        and papers with technical drawi_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1054
-        height: 435
+        width: 2048
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +117,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 80cb5d52230e31a00800000000000000
-      internalID: 726170470924532744
+      spriteID: 17f99f26235fbf2d0800000000000000
+      internalID: -3243729509832614031
       vertices: []
       indices: 
       edges: []
@@ -147,8 +136,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      WhatsApp Image 2025-01-06 at 12.21.37_0: 726170470924532744
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

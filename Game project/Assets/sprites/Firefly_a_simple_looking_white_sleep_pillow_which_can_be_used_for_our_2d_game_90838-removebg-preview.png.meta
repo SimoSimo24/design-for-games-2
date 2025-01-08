@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e06c4d1c16746c34b9586311b54b3ce2
+guid: c4941181a4200404eb11f7cb8d8b8f41
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 726170470924532744
-    second: WhatsApp Image 2025-01-06 at 12.21.37_0
+      213: -3968995543653171749
+    second: Firefly_a_simple_looking_white_sleep_pillow_which_can_be_used_for_our_2d_game_90838-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WhatsApp Image 2025-01-06 at 12.21.37_0
+      name: Firefly_a_simple_looking_white_sleep_pillow_which_can_be_used_for_our_2d_game_90838-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1054
-        height: 435
+        x: 40
+        y: 84
+        width: 414
+        height: 347
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 80cb5d52230e31a00800000000000000
-      internalID: 726170470924532744
+      spriteID: bddb179e49b4be8c0800000000000000
+      internalID: -3968995543653171749
       vertices: []
       indices: 
       edges: []
@@ -147,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      WhatsApp Image 2025-01-06 at 12.21.37_0: 726170470924532744
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
