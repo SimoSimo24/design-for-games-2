@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b9444c5708398cd40a2209004534672f
+guid: 4f504b9e3b0b4b44f9b5da9ca9ba4146
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4756350257624379243
-    second: red_lightbulb_0
+      213: 7771109537435197294
+    second: honeywell-3301161-howard-leight-max-foam-earplugs-1-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: red_lightbulb_0
+      name: honeywell-3301161-howard-leight-max-foam-earplugs-1-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 127
-        y: 50
-        width: 246
-        height: 396
+        x: 15
+        y: 87
+        width: 473
+        height: 326
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b6fe90deb53f10240800000000000000
-      internalID: 4756350257624379243
+      spriteID: e6f997183f688db60800000000000000
+      internalID: 7771109537435197294
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      red_lightbulb_0: 4756350257624379243
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
