@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      png-clipart-speech-balloon-air-bubble-white-text-thumbnail_0: -4040655855130425758
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Firefly A simple looking empty wooden background for a 2d game 73655_0: 2053175384936903951
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
