@@ -4,6 +4,7 @@ using UnityEngine;
 public class DropArea : MonoBehaviour, IDropArea
 {
     private List<DragDrop> itemsInDropArea = new List<DragDrop>();
+    public Camera mainCamera;
 
     public void OnItemDrop(DragDrop dragDrop)
     {
@@ -23,7 +24,7 @@ public class DropArea : MonoBehaviour, IDropArea
         }
     }
 
-    private void UpdateItemsInDropArea()
+    public void UpdateItemsInDropArea()
     {
         // Iterate over a copy of the list to avoid modifying it during iteration
         List<DragDrop> itemsCopy = new List<DragDrop>(itemsInDropArea);
@@ -37,7 +38,37 @@ public class DropArea : MonoBehaviour, IDropArea
         Debug.Log("Items in DropArea:");
         foreach (DragDrop item in itemsInDropArea)
         {
-            Debug.Log($"- {item.name}");
+            Debug.Log($"- {item.name} (Score: {item.score})");
+        }
+
+        Debug.Log($"Total Score: {CalculateTotalScore()}");
+    }
+
+    public int CalculateTotalScore()
+    {
+        int totalScore = 0;
+        foreach (DragDrop item in itemsInDropArea)
+        {
+            totalScore += item.score; // Add each item's score
+        }
+        return totalScore;
+    }
+
+    public void OnButtonClick()
+    {
+        UpdateItemsInDropArea();
+        int totalScore = CalculateTotalScore();
+        Debug.Log($"Final Total Score: {totalScore}");
+
+        // Change camera position
+        if (mainCamera != null)
+        {
+            mainCamera.transform.position = new Vector3(0, 10, -10); // Example new position
+            Debug.Log("Camera position changed!");
+        }
+        else
+        {
+            Debug.LogError("Main Camera reference is missing!");
         }
     }
 }

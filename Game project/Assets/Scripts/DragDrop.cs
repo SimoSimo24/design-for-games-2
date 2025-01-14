@@ -1,13 +1,12 @@
 using UnityEngine;
-using System;
-using System.Runtime.CompilerServices;
 
 public class DragDrop : MonoBehaviour
 {
-
     private Collider2D col;
-    public Vector3 startDragPosition;
-    public Vector3 beginPosition;
+    public Vector3 beginPosition { get; private set; }
+    private Vector3 startDragPosition;
+
+    public int score;
 
     private void Start()
     {
@@ -18,7 +17,6 @@ public class DragDrop : MonoBehaviour
     private void OnMouseDown()
     {
         startDragPosition = transform.position;
-        transform.position = GetMousePositionInWorldSpace();
     }
 
     private void OnMouseDrag()
@@ -38,26 +36,14 @@ public class DragDrop : MonoBehaviour
         }
         else
         {
-            // Inform previous DropArea (if needed) to remove the item
-            Collider2D previousDropAreaCollider = Physics2D.OverlapPoint(beginPosition);
-            if (previousDropAreaCollider != null && previousDropAreaCollider.TryGetComponent(out DropArea previousDropArea))
-            {
-                previousDropArea.RemoveItem(this);
-            }
             transform.position = beginPosition;
         }
     }
 
-
-    public Vector3 GetMousePositionInWorldSpace()
+    private Vector3 GetMousePositionInWorldSpace()
     {
-        Vector3 p = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        p.z = 0f;
-        return p;
-    }
-
-    public void InteractLogic()
-    {
-        throw new NotImplementedException();
+        Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mousePosition.z = 0f; // Ensure it's on the 2D plane
+        return mousePosition;
     }
 }
