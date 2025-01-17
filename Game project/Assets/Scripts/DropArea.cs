@@ -1,10 +1,12 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DropArea : MonoBehaviour, IDropArea
 {
     private List<DragDrop> itemsInDropArea = new List<DragDrop>();
     public Camera mainCamera;
+    public Button actionButton;
 
     public void OnItemDrop(DragDrop dragDrop)
     {
@@ -60,15 +62,33 @@ public class DropArea : MonoBehaviour, IDropArea
         int totalScore = CalculateTotalScore();
         Debug.Log($"Final Total Score: {totalScore}");
 
+
         // Change camera position
-        if (mainCamera != null)
+        if (mainCamera != null && totalScore > 13)
         {
-            mainCamera.transform.position = new Vector3(0, 10, -10); // Example new position
+            mainCamera.transform.position = new Vector3(-20, 12, -10);
+            Debug.Log("Camera position changed!");
+        }
+        else if (mainCamera != null && totalScore <= 13)
+        {
+            mainCamera.transform.position = new Vector3(-22, -14, -10);
             Debug.Log("Camera position changed!");
         }
         else
         {
             Debug.LogError("Main Camera reference is missing!");
+        }
+
+
+        // Disable the button
+        if (actionButton != null)
+        {
+            actionButton.gameObject.SetActive(false); // Make the button disappear
+            Debug.Log("Button has been disabled!");
+        }
+        else
+        {
+            Debug.LogError("Action Button reference is missing!");
         }
     }
 }
