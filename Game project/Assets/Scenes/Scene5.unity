@@ -427,7 +427,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -11.001, y: 68.906}
+  m_AnchoredPosition: {x: -11.001, y: 49}
   m_SizeDelta: {x: 351.054, y: 81.8112}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &659594449
@@ -475,8 +475,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1594985342}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
-        m_MethodName: set_name
+        m_TargetAssemblyTypeName: NextSceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -560,7 +560,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10.999, y: -21}
+  m_AnchoredPosition: {x: -11.003, y: -35.239}
   m_SizeDelta: {x: 351.05, y: 70.4775}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &673641639
@@ -608,8 +608,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1594985342}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
-        m_MethodName: set_name
+        m_TargetAssemblyTypeName: NextSceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -691,8 +691,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 43.81617, y: 79.716}
-  m_SizeDelta: {x: 460.6783, y: 103.43}
+  m_AnchoredPosition: {x: -22, y: 144}
+  m_SizeDelta: {x: 311.61, y: 69.5509}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1063415535
 MonoBehaviour:
@@ -748,7 +748,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -779,7 +779,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -28.763687, z: 43.145874, w: 78.91362}
+  m_margin: {x: 0, y: 5.115494, z: 1.1356812, w: -5.106827}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -829,7 +829,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10.998, y: -106.3326}
+  m_AnchoredPosition: {x: -10.999, y: -119}
   m_SizeDelta: {x: 351.05, y: 81.8113}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1111455677
@@ -876,9 +876,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1111455675}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
-        m_MethodName: set_name
+      - m_Target: {fileID: 1594985342}
+        m_TargetAssemblyTypeName: NextSceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
