@@ -576,7 +576,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4874814978952458439, guid: 3373cbf959d617f498900f0540123470, type: 3}
       propertyPath: m_Size.y
-      value: 7.53
+      value: 8.393376
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874814978952458439, guid: 3373cbf959d617f498900f0540123470, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0034663677
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874814978952458439, guid: 3373cbf959d617f498900f0540123470, type: 3}
+      propertyPath: m_Offset.y
+      value: 3.0121806
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874814978952458439, guid: 3373cbf959d617f498900f0540123470, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4874814978952458439, guid: 3373cbf959d617f498900f0540123470, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
@@ -608,7 +620,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6152961372160712095, guid: 3373cbf959d617f498900f0540123470, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.63
       objectReference: {fileID: 0}
     - target: {fileID: 6152961372160712095, guid: 3373cbf959d617f498900f0540123470, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1061,8 +1073,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49dbd7da9ad2ccc49acf8cc296a1bfae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCamera: {fileID: 0}
-  actionButton: {fileID: 0}
+  mainCamera: {fileID: 519420031}
+  actionButton: {fileID: 1864881747}
   dragDrop: {fileID: 0}
   occupied: 0
 --- !u!1001 &239733433
@@ -1911,7 +1923,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2238304075134566890, guid: 3373cbf959d617f498900f0540123470, type: 3}
       propertyPath: score
-      value: 5
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4874814978952458439, guid: 3373cbf959d617f498900f0540123470, type: 3}
       propertyPath: m_Size.x
@@ -2182,7 +2194,7 @@ Transform:
   m_GameObject: {fileID: 488296011}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.57, y: -15.72, z: 0.02}
+  m_LocalPosition: {x: -17.57, y: -15.72, z: 0.02}
   m_LocalScale: {x: 1.145, y: 1.145, z: 1.145}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2653,7 +2665,7 @@ Transform:
   m_GameObject: {fileID: 570696257}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.35, y: -14.01, z: 0.2}
+  m_LocalPosition: {x: -17.6837, y: -13.9935, z: 0.2}
   m_LocalScale: {x: 0.4481736, y: 0.4929854, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3560,8 +3572,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49dbd7da9ad2ccc49acf8cc296a1bfae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCamera: {fileID: 0}
-  actionButton: {fileID: 0}
+  mainCamera: {fileID: 519420031}
+  actionButton: {fileID: 1864881747}
   dragDrop: {fileID: 0}
   occupied: 0
 --- !u!1 &782105921
@@ -3680,6 +3692,10 @@ PrefabInstance:
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"ScorePoints","value":{"$content":30,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Costs","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2238304075134566890, guid: 3373cbf959d617f498900f0540123470, type: 3}
+      propertyPath: score
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4874814978952458439, guid: 3373cbf959d617f498900f0540123470, type: 3}
       propertyPath: m_Size.x
@@ -3860,7 +3876,7 @@ Transform:
   m_GameObject: {fileID: 918155031}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.097801, y: 12.1232, z: 0.2}
+  m_LocalPosition: {x: -15.6837, y: 12.0065, z: 0.2}
   m_LocalScale: {x: 0.4481736, y: 0.4929854, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4226,7 +4242,7 @@ Transform:
   m_GameObject: {fileID: 986077903}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.56640625, w: 0.82412624}
-  m_LocalPosition: {x: 6.07, y: -2.55, z: 0.01}
+  m_LocalPosition: {x: 6.59, y: -2.46, z: 0.01}
   m_LocalScale: {x: 0.314621, y: 0.30568188, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4244,8 +4260,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49dbd7da9ad2ccc49acf8cc296a1bfae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCamera: {fileID: 0}
-  actionButton: {fileID: 0}
+  mainCamera: {fileID: 519420031}
+  actionButton: {fileID: 1864881747}
   dragDrop: {fileID: 0}
   occupied: 0
 --- !u!1 &1005891078
@@ -4825,7 +4841,7 @@ Transform:
   m_GameObject: {fileID: 1254941678}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.56640625, w: 0.82412624}
-  m_LocalPosition: {x: 2.73, y: -2.56, z: 0.01}
+  m_LocalPosition: {x: 2.24, y: -2.43, z: 0.01}
   m_LocalScale: {x: 0.314621, y: 0.30299366, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4843,8 +4859,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49dbd7da9ad2ccc49acf8cc296a1bfae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCamera: {fileID: 0}
-  actionButton: {fileID: 0}
+  mainCamera: {fileID: 519420031}
+  actionButton: {fileID: 1864881747}
   dragDrop: {fileID: 0}
   occupied: 0
 --- !u!1 &1287545523
@@ -4994,8 +5010,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49dbd7da9ad2ccc49acf8cc296a1bfae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCamera: {fileID: 0}
-  actionButton: {fileID: 0}
+  mainCamera: {fileID: 519420031}
+  actionButton: {fileID: 1864881747}
   dragDrop: {fileID: 0}
   occupied: 0
 --- !u!1 &1292519950
@@ -5292,7 +5308,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2238304075134566890, guid: 3373cbf959d617f498900f0540123470, type: 3}
       propertyPath: score
-      value: -1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4874814978952458439, guid: 3373cbf959d617f498900f0540123470, type: 3}
       propertyPath: m_Size.x
@@ -7051,7 +7067,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1663998478}
   - component: {fileID: 1663998476}
-  - component: {fileID: 1663998475}
   - component: {fileID: 1663998479}
   m_Layer: 0
   m_Name: DropArea
@@ -7060,22 +7075,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1663998475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1663998474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49dbd7da9ad2ccc49acf8cc296a1bfae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainCamera: {fileID: 519420031}
-  actionButton: {fileID: 0}
-  dragDrop: {fileID: 0}
-  occupied: 0
 --- !u!61 &1663998476
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7743,8 +7742,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49dbd7da9ad2ccc49acf8cc296a1bfae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCamera: {fileID: 0}
-  actionButton: {fileID: 0}
+  mainCamera: {fileID: 519420031}
+  actionButton: {fileID: 1864881747}
   dragDrop: {fileID: 0}
   occupied: 0
 --- !u!1 &1759570676
@@ -8241,7 +8240,7 @@ GameObject:
   - component: {fileID: 1864881748}
   - component: {fileID: 1864881747}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Button_p5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8311,10 +8310,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1978324109}
-        m_TargetAssemblyTypeName: NextSceneLoader, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 5
+      - m_Target: {fileID: 729757345}
+        m_TargetAssemblyTypeName: DropArea, Assembly-CSharp
+        m_MethodName: OnButtonClick
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8642,8 +8641,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49dbd7da9ad2ccc49acf8cc296a1bfae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCamera: {fileID: 0}
-  actionButton: {fileID: 0}
+  mainCamera: {fileID: 519420031}
+  actionButton: {fileID: 1864881747}
   dragDrop: {fileID: 0}
   occupied: 0
 --- !u!1001 &1923194696
@@ -8675,6 +8674,10 @@ PrefabInstance:
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"ScorePoints","value":{"$content":30,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Costs","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2238304075134566890, guid: 3373cbf959d617f498900f0540123470, type: 3}
+      propertyPath: score
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4874814978952458439, guid: 3373cbf959d617f498900f0540123470, type: 3}
       propertyPath: m_Size.x
@@ -9020,8 +9023,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49dbd7da9ad2ccc49acf8cc296a1bfae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCamera: {fileID: 0}
-  actionButton: {fileID: 0}
+  mainCamera: {fileID: 519420031}
+  actionButton: {fileID: 1864881747}
   dragDrop: {fileID: 0}
   occupied: 0
 --- !u!1 &1945245045
@@ -9278,8 +9281,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49dbd7da9ad2ccc49acf8cc296a1bfae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCamera: {fileID: 0}
-  actionButton: {fileID: 0}
+  mainCamera: {fileID: 519420031}
+  actionButton: {fileID: 1864881747}
   dragDrop: {fileID: 0}
   occupied: 0
 --- !u!212 &2102404422
@@ -9427,6 +9430,10 @@ PrefabInstance:
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"ScorePoints","value":{"$content":-5,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Costs","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2238304075134566890, guid: 3373cbf959d617f498900f0540123470, type: 3}
+      propertyPath: score
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4874814978952458439, guid: 3373cbf959d617f498900f0540123470, type: 3}
       propertyPath: m_Size.x

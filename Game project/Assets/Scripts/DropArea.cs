@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class DropArea : MonoBehaviour, IDropArea
 {
-    protected List<DragDrop> itemsInDropArea = new List<DragDrop>();
+    protected static List<DragDrop> itemsInDropArea = new List<DragDrop>();
     public Camera mainCamera;
     public Button actionButton;
     public DragDrop dragDrop;
