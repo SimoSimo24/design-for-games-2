@@ -282,8 +282,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "TU/e \nIndustrial Design"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54ac26267e405f4ab3d5e849c6ccc02, type: 2}
+  m_sharedMaterial: {fileID: -1954076249994293056, guid: a54ac26267e405f4ab3d5e849c6ccc02, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -418,8 +418,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Gather 5 players to start this game!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0f9090c9b0b65fb4e948b403f45e9d40, type: 2}
-  m_sharedMaterial: {fileID: -8865320431642938969, guid: 0f9090c9b0b65fb4e948b403f45e9d40, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a54ac26267e405f4ab3d5e849c6ccc02, type: 2}
+  m_sharedMaterial: {fileID: -1954076249994293056, guid: a54ac26267e405f4ab3d5e849c6ccc02, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
