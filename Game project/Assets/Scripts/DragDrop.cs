@@ -37,6 +37,7 @@ public class DragDrop : MonoBehaviour
         else
         {
             transform.position = beginPosition;
+            transform.rotation = Quaternion.identity;
         }
     }
 

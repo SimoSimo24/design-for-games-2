@@ -8,17 +8,18 @@ public class DropArea : MonoBehaviour, IDropArea
     public Camera mainCamera;
     public Button actionButton;
     public DragDrop dragDrop;
+    public bool occupied = false;
 
     public virtual void OnItemDrop(DragDrop dragDrop)
     {
-        if (!itemsInDropArea.Contains(dragDrop))
-        {
-            itemsInDropArea.Add(dragDrop);
-        }
-        UpdateItemsInDropArea();
+            if (!itemsInDropArea.Contains(dragDrop))
+            {
+                itemsInDropArea.Add(dragDrop);
+            }
+            UpdateItemsInDropArea();
+            dragDrop.transform.position = this.transform.position + new Vector3(0,0,-0.01f);
+            dragDrop.transform.rotation = this.transform.rotation;
 
-        dragDrop.transform.position = this.transform.position;
-        dragDrop.transform.rotation = this.transform.rotation;
     }
 
     public void RemoveItem(DragDrop dragDrop)
