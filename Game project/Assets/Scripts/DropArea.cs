@@ -68,11 +68,19 @@ public class DropArea : MonoBehaviour, IDropArea
         {
             mainCamera.transform.position = new Vector3(-20, 12, -10);
             Debug.Log("Camera position changed!");
+            foreach (DragDrop item in itemsInDropArea)
+            {
+                item.transform.position = item.transform.position + new Vector3(-20, 12, 0);
+            }
         }
         else if (mainCamera != null && totalScore <= 13)
         {
             mainCamera.transform.position = new Vector3(-22, -14, -10);
             Debug.Log("Camera position changed!");
+            foreach (DragDrop item in itemsInDropArea)
+            {
+                item.transform.position = item.transform.position + new Vector3(-22, -14, 0);
+            }
         }
         else
         {
