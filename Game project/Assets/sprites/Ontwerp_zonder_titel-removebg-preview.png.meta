@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b0bc3cf7065224d4d856e6798ca307a7
+guid: e4f8a9917897b004993b5364d4f91624
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -339108155665303417
-    second: vecteezy_digital-clock-time-show-23-00-clock-show-24-hours-time_28651569_0
+      213: -4625925484888312240
+    second: Ontwerp_zonder_titel-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: vecteezy_digital-clock-time-show-23-00-clock-show-24-hours-time_28651569_0
+      name: Ontwerp_zonder_titel-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 150
-        y: 964
-        width: 3927
-        height: 1963
+        x: 20
+        y: 25
+        width: 460
+        height: 450
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 788b129ddee3b4bf0800000000000000
-      internalID: -339108155665303417
+      spriteID: 0563ecbd7496dcfb0800000000000000
+      internalID: -4625925484888312240
       vertices: []
       indices: 
       edges: []
@@ -138,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 933161a750d6a5e42b8a48ac570806a4
+    spriteID: 63ca726ff72cf5a488ebf54568f3ee97
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      vecteezy_digital-clock-time-show-23-00-clock-show-24-hours-time_28651569_0: -339108155665303417
+      Ontwerp_zonder_titel-removebg-preview_0: -4625925484888312240
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

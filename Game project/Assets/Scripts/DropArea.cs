@@ -4,17 +4,21 @@ using UnityEngine.UI;
 
 public class DropArea : MonoBehaviour, IDropArea
 {
-    private List<DragDrop> itemsInDropArea = new List<DragDrop>();
+    protected List<DragDrop> itemsInDropArea = new List<DragDrop>();
     public Camera mainCamera;
     public Button actionButton;
+    public DragDrop dragDrop;
 
-    public void OnItemDrop(DragDrop dragDrop)
+    public virtual void OnItemDrop(DragDrop dragDrop)
     {
         if (!itemsInDropArea.Contains(dragDrop))
         {
             itemsInDropArea.Add(dragDrop);
         }
         UpdateItemsInDropArea();
+
+        dragDrop.transform.position = this.transform.position;
+        dragDrop.transform.rotation = this.transform.rotation;
     }
 
     public void RemoveItem(DragDrop dragDrop)

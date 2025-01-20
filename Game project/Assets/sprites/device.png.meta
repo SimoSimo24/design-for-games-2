@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b0bc3cf7065224d4d856e6798ca307a7
+guid: cd57b2b8125c4b7488758dffab346b2b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -339108155665303417
-    second: vecteezy_digital-clock-time-show-23-00-clock-show-24-hours-time_28651569_0
+      213: -6666865736354366600
+    second: device_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,40 +96,27 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: vecteezy_digital-clock-time-show-23-00-clock-show-24-hours-time_28651569_0
+      name: device_0
       rect:
         serializedVersion: 2
-        x: 150
-        y: 964
-        width: 3927
-        height: 1963
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 28
+        y: 27
+        width: 450
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 788b129ddee3b4bf0800000000000000
-      internalID: -339108155665303417
+      spriteID: 87bff537fe88a73a0800000000000000
+      internalID: -6666865736354366600
       vertices: []
       indices: 
       edges: []
@@ -138,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 933161a750d6a5e42b8a48ac570806a4
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -147,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      vecteezy_digital-clock-time-show-23-00-clock-show-24-hours-time_28651569_0: -339108155665303417
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
