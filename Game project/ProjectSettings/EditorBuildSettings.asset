@@ -11,5 +11,62 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene1.unity
     guid: 8f0bc618871a2cf42a0b9940b2a4b58e
+  - enabled: 1
+    path: Assets/Scenes/Scene3.unity
+    guid: fd667ca6887300e41ac4d03e1d0b741a
+  - enabled: 1
+    path: Assets/Scenes/Scene4.unity
+    guid: 0cf2ecf874cb4f348aa4de6427133b69
+  - enabled: 1
+    path: Assets/Scenes/Scene5.unity
+    guid: d27151bc6027f664fae15d90e8129eba
+  - enabled: 1
+    path: Assets/Scenes/Scene5a.unity
+    guid: d4de6574300772c4e9b8e12e49a2deea
+  - enabled: 1
+    path: Assets/Scenes/Scene5b.unity
+    guid: 8394520bdf96de840b7175f5d998819a
+  - enabled: 1
+    path: Assets/Scenes/Scene5c.unity
+    guid: b29004c34fd68764e9ea44a6d6e307d3
+  - enabled: 1
+    path: Assets/Scenes/Scene6.unity
+    guid: 132d77348bcd17d42a94b72a5d5fb352
+  - enabled: 1
+    path: Assets/Scenes/Scene7.unity
+    guid: e8831b555b806594a8273e0af5ecf182
+  - enabled: 1
+    path: Assets/Scenes/Scene8.unity
+    guid: ca8a0a7a5791dff42a0de4812dc863e2
+  - enabled: 1
+    path: Assets/Scenes/Scene9.unity
+    guid: 52054f2f02c0b404287d0a47fd915b50
+  - enabled: 1
+    path: Assets/Scenes/Scene10.unity
+    guid: d764ffee5c2359e4cb8f9cb79a3b190f
+  - enabled: 1
+    path: Assets/Scenes/Scene11.unity
+    guid: ecf0f06c59db773498f6edc614733855
+  - enabled: 1
+    path: Assets/Scenes/Scene12.unity
+    guid: b4245be5cb753484198b278fd39ff20f
+  - enabled: 1
+    path: Assets/Scenes/Scene13.unity
+    guid: 42d4e8fdf3514f747b9108d7cbf17ec7
+  - enabled: 1
+    path: Assets/Scenes/Scene14.unity
+    guid: ef7da0dbbf1f82643ac3dddbf7892609
+  - enabled: 1
+    path: Assets/Scenes/Scene15.unity
+    guid: f94e07f571dcd8940aa00285411760da
+  - enabled: 1
+    path: Assets/Scenes/Scene16.unity
+    guid: 5904cca9e4f67b8479ec3ddfdbbdcdf5
+  - enabled: 1
+    path: Assets/Scenes/T and R.unity
+    guid: 36ac92a47d495e04a9ad074ead384a84
+  - enabled: 1
+    path: Assets/Scenes/WorkStation.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
