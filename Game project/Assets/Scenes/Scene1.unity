@@ -421,12 +421,11 @@ MonoBehaviour:
     a specific product. Each team member will have their own expertise based on the
     expertise areas from TU/e Industrial Design. The customer will provide some initial
     information, but this information must be obtained through a hint exercise specific
-    to each expertise area.\n\n(Note: One player will receive incorrect information,
-    but they won\u2019t know it\u2014this twist won\u2019t be revealed upfront.)\n\nAfter
-    completing the hint exercise, each team member will add components to the product
-    based on their hint. Together, all the components will form the final product,
-    which will then be presented to the customer for evaluation.\n\nAim for the highest
-    score to prove that you\u2019re a true team player and an industrial designer!"
+    to each expertise area.\n\nAfter completing the hint exercise, each team member
+    will add components to the product based on their hint. Together, all the components
+    will form the final product, which will then be presented to the customer for
+    evaluation.\n\nAim for the highest score to prove that you\u2019re a true team
+    player and an industrial designer!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a54ac26267e405f4ab3d5e849c6ccc02, type: 2}
   m_sharedMaterial: {fileID: -1954076249994293056, guid: a54ac26267e405f4ab3d5e849c6ccc02, type: 2}
