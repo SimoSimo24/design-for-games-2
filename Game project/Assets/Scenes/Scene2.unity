@@ -178,8 +178,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Player 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0c9068ba34127cc42af1a2156a4d06fc, type: 2}
+  m_sharedMaterial: {fileID: 124954577989751343, guid: 0c9068ba34127cc42af1a2156a4d06fc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -314,8 +314,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: NEXT
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0f9090c9b0b65fb4e948b403f45e9d40, type: 2}
-  m_sharedMaterial: {fileID: -8865320431642938969, guid: 0f9090c9b0b65fb4e948b403f45e9d40, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0c9068ba34127cc42af1a2156a4d06fc, type: 2}
+  m_sharedMaterial: {fileID: 124954577989751343, guid: 0c9068ba34127cc42af1a2156a4d06fc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -631,8 +631,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: A customer wants to speak to you,come to the screen!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0f9090c9b0b65fb4e948b403f45e9d40, type: 2}
-  m_sharedMaterial: {fileID: -8865320431642938969, guid: 0f9090c9b0b65fb4e948b403f45e9d40, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0c9068ba34127cc42af1a2156a4d06fc, type: 2}
+  m_sharedMaterial: {fileID: 124954577989751343, guid: 0c9068ba34127cc42af1a2156a4d06fc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
