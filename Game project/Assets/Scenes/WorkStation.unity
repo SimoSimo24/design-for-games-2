@@ -7147,7 +7147,7 @@ Transform:
   m_GameObject: {fileID: 1650610765}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.05430154, w: -0.9985246}
-  m_LocalPosition: {x: -24.4105, y: -10.509, z: 0}
+  m_LocalPosition: {x: -24.4105, y: -10.509, z: -5.89}
   m_LocalScale: {x: 0.437849, y: 0.4648697, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8751,10 +8751,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1978324109}
-        m_TargetAssemblyTypeName: NextSceneLoader, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 5
+      - m_Target: {fileID: 228572338}
+        m_TargetAssemblyTypeName: DropArea, Assembly-CSharp
+        m_MethodName: OnButtonClick
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
