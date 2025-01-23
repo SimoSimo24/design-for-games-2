@@ -1473,8 +1473,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 835, y: 500}
-  m_SizeDelta: {x: 175.7239, y: 47.689}
+  m_AnchoredPosition: {x: 431, y: 255.0416}
+  m_SizeDelta: {x: 175.72, y: 25.6059}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &264604378
 MonoBehaviour:
@@ -7909,8 +7909,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 842.86005, y: 418.43997}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 431, y: 186.36105}
+  m_SizeDelta: {x: 175.72, y: 20.5358}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1716820333
 MonoBehaviour:
@@ -8206,8 +8206,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 842.86005, y: 388.43997}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 431, y: 154.88684}
+  m_SizeDelta: {x: 175.72, y: 23.6905}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1759570678
 MonoBehaviour:
@@ -8704,8 +8704,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 842.86, y: 357.46}
-  m_SizeDelta: {x: 160, y: 31.9655}
+  m_AnchoredPosition: {x: 431, y: 122.62897}
+  m_SizeDelta: {x: 175.72, y: 26.7076}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1864881747
 MonoBehaviour:
@@ -8751,16 +8751,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 729757345}
-        m_TargetAssemblyTypeName: DropArea, Assembly-CSharp
-        m_MethodName: OnButtonClick
-        m_Mode: 1
+      - m_Target: {fileID: 1978324109}
+        m_TargetAssemblyTypeName: NextSceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Scene
+          m_StringArgument: Scene17
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1864881748
@@ -8838,8 +8838,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 835, y: 454.8}
-  m_SizeDelta: {x: 175.72, y: 42.7118}
+  m_AnchoredPosition: {x: 431, y: 218.41266}
+  m_SizeDelta: {x: 175.72, y: 25.8865}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1868207975
 MonoBehaviour:
